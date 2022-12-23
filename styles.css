@@ -94,7 +94,7 @@ a {
   display: none;
 }
 
-.shortcut_button1 {
+.shortcut_button0 {
   border: 1px solid #FFF;
   height: 3em;
   width: 100%;
@@ -106,52 +106,64 @@ a {
   background-image: linear-gradient(#000, #B0BEC5);
 }
 
+.shortcut_button1 {
+  border: 1px solid #FFF;
+  height: 3em;
+  width: 100%;
+  background-image: linear-gradient(#AE0000, #000);
+  color: #FFF;
+}
+
+.shortcut_button1:hover {
+  background-image: linear-gradient(#000, #AE0000);
+}
+
 .shortcut_button2 {
   border: 1px solid #FFF;
   height: 3em;
   width: 100%;
-  background-image: linear-gradient(#B0BEC5, #000);
-  color: #FFF;
+
+  color: #FFF;  background-image: linear-gradient(#000D7D, #000);
 }
 
 .shortcut_button2:hover {
-  background-image: linear-gradient(#000, #B0BEC5);
+  background-image: linear-gradient(#000, #000D7D);
 }
 
 .shortcut_button3 {
   border: 1px solid #FFF;
   height: 3em;
   width: 100%;
-  background-image: linear-gradient(#B0BEC5, #000);
+  background-image: linear-gradient(#276900, #000);
   color: #FFF;
 }
 
 .shortcut_button3:hover {
-  background-image: linear-gradient(#000, #B0BEC5);
+  background-image: linear-gradient(#000, #276900);
 }
 
 .shortcut_button4 {
   border: 1px solid #FFF;
   height: 3em;
   width: 100%;
-  background-image: linear-gradient(#B0BEC5, #000);
+  background-image: linear-gradient(#FF5E00, #000);
   color: #FFF;
 }
 
 .shortcut_button4:hover {
-  background-image: linear-gradient(#000, #B0BEC5);
+  background-image: linear-gradient(#000, #FF5E00);
 }
 
 .shortcut_button5 {
   border: 1px solid #FFF;
   height: 3em;
   width: 100%;
-  background-image: linear-gradient(#B0BEC5, #000);
+  background-image: linear-gradient(#810070, #000);
   color: #FFF;
 }
 
 .shortcut_button5:hover {
-  background-image: linear-gradient(#000, #B0BEC5);
+  background-image: linear-gradient(#000, #810070);
 }
 
 .def_menu_button {
