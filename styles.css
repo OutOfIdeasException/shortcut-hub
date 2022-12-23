@@ -1,0 +1,216 @@
+html {
+  background-color: #000;
+}
+
+section {
+  width: 90%;
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  border-bottom: 2px solid #FFF;
+  border-top: 2px solid #FFF;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu_item {
+	width: 20%;
+	text-align: center;
+	border-right: 2px solid #FFF;
+	border-left: 2px solid #FFF;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.button_container1  {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.button_container2  {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.button_container3  {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.button_container4  {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.button_container5  {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.hide_buttons
+{
+  display: none;
+}
+
+.show_buttons {
+  display: block;
+}
+
+.button_item1 {
+  display: block;
+}
+
+.button_item2 {
+  display: none;
+}
+
+.button_item3 {
+  display: none;
+}
+
+.button_item4 {
+  display: none;
+}
+
+.button_item5 {
+  display: none;
+}
+
+.shortcut_button1 {
+  border: 1px solid #FFF;
+  height: 3em;
+  width: 100%;
+  background-image: linear-gradient(#B0BEC5, #000);
+  color: #FFF;
+}
+
+.shortcut_button1:hover {
+  background-image: linear-gradient(#000, #B0BEC5);
+}
+
+.shortcut_button2 {
+  border: 1px solid #FFF;
+  height: 3em;
+  width: 100%;
+  background-image: linear-gradient(#B0BEC5, #000);
+  color: #FFF;
+}
+
+.shortcut_button2:hover {
+  background-image: linear-gradient(#000, #B0BEC5);
+}
+
+.shortcut_button3 {
+  border: 1px solid #FFF;
+  height: 3em;
+  width: 100%;
+  background-image: linear-gradient(#B0BEC5, #000);
+  color: #FFF;
+}
+
+.shortcut_button3:hover {
+  background-image: linear-gradient(#000, #B0BEC5);
+}
+
+.shortcut_button4 {
+  border: 1px solid #FFF;
+  height: 3em;
+  width: 100%;
+  background-image: linear-gradient(#B0BEC5, #000);
+  color: #FFF;
+}
+
+.shortcut_button4:hover {
+  background-image: linear-gradient(#000, #B0BEC5);
+}
+
+.shortcut_button5 {
+  border: 1px solid #FFF;
+  height: 3em;
+  width: 100%;
+  background-image: linear-gradient(#B0BEC5, #000);
+  color: #FFF;
+}
+
+.shortcut_button5:hover {
+  background-image: linear-gradient(#000, #B0BEC5);
+}
+
+.def_menu_button {
+  height: 3em;
+  width: 100%;
+  background-image: linear-gradient(#000, #B0BEC5);
+  color: #FFF;
+}
+
+.def_menu_button:hover{
+  background-image: linear-gradient(#B0BEC5, #000);
+}
+
+.edit_area {
+  background-color: #FFF;
+  color: #FFF;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 25px;
+  border: 2px solid #B0BEC5;
+  background-image: linear-gradient(#000, #B0BEC5);
+  display: none;
+}
+
+.instruction_area {
+  background-color: #FFF;
+  color: #FFF;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 25px;
+  border: 2px solid #B0BEC5;
+  background-color: #000;
+  display: block;
+}
+
+
+.functional_buttons {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.custom_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 3px;
+}
+
+input[type=text], select {
+	margin-top: 5px;
+}
+
+input[type=submit] {
+	margin-top: 7px;
+}
