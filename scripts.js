@@ -156,32 +156,153 @@ function updateCat() {
   if (currentCat == 1) {
     let catLabel = document.getElementById('catLabel').value;
     let catColor = document.getElementById('catColor').value;
+    let buttonContainer1 = document.querySelector('.button_container1');
 
     document.getElementById('cat1Button').innerHTML = catLabel;
     console.log("Update | Cat 1 Button: " + cat1Button + " catLabel: " + catLabel + "catColor: " + catColor);
     
     if (catColor === "Default") {
       document.getElementById("cat1Button").className = 'shortcut_button0';
+      document.getElementById("button1C1").className = 'shortcut_button0';
+      document.getElementById("button2C1").className = 'shortcut_button0';
+      document.getElementById("button3C1").className = 'shortcut_button0';
+      document.getElementById("button4C1").className = 'shortcut_button0';
+      document.getElementById("button5C1").className = 'shortcut_button0';
+      document.getElementById("button6C1").className = 'shortcut_button0';
+      document.getElementById("button7C1").className = 'shortcut_button0';
+      document.getElementById("button8C1").className = 'shortcut_button0';
+      document.getElementById("button9C1").className = 'shortcut_button0';
+      document.getElementById("button10C1").className = 'shortcut_button0';
+      document.getElementById("button11C1").className = 'shortcut_button0';
+      document.getElementById("button12C1").className = 'shortcut_button0';
+      document.getElementById("button13C1").className = 'shortcut_button0';
+      document.getElementById("button14C1").className = 'shortcut_button0';
+      document.getElementById("button15C1").className = 'shortcut_button0';
+      document.getElementById("button16C1").className = 'shortcut_button0';
+      document.getElementById("button17C1").className = 'shortcut_button0';
+      document.getElementById("button18C1").className = 'shortcut_button0';
+      document.getElementById("button19C1").className = 'shortcut_button0';
+      document.getElementById("button20C1").className = 'shortcut_button0';
     }
 
     if (catColor === "Red") {
       document.getElementById("cat1Button").className = 'shortcut_button1';
+      document.getElementById("button1C1").className = 'shortcut_button1';
+      document.getElementById("button2C1").className = 'shortcut_button1';
+      document.getElementById("button3C1").className = 'shortcut_button1';
+      document.getElementById("button4C1").className = 'shortcut_button1';
+      document.getElementById("button5C1").className = 'shortcut_button1';
+      document.getElementById("button6C1").className = 'shortcut_button1';
+      document.getElementById("button7C1").className = 'shortcut_button1';
+      document.getElementById("button8C1").className = 'shortcut_button1';
+      document.getElementById("button9C1").className = 'shortcut_button1';
+      document.getElementById("button10C1").className = 'shortcut_button1';
+      document.getElementById("button11C1").className = 'shortcut_button1';
+      document.getElementById("button12C1").className = 'shortcut_button1';
+      document.getElementById("button13C1").className = 'shortcut_button1';
+      document.getElementById("button14C1").className = 'shortcut_button1';
+      document.getElementById("button15C1").className = 'shortcut_button1';
+      document.getElementById("button16C1").className = 'shortcut_button1';
+      document.getElementById("button17C1").className = 'shortcut_button1';
+      document.getElementById("button18C1").className = 'shortcut_button1';
+      document.getElementById("button19C1").className = 'shortcut_button1';
+      document.getElementById("button20C1").className = 'shortcut_button1';
     }
 
     if (catColor === "Blue") {
       document.getElementById("cat1Button").className = 'shortcut_button2';
+      document.getElementById("button1C1").className = 'shortcut_button2';
+      document.getElementById("button2C1").className = 'shortcut_button2';
+      document.getElementById("button3C1").className = 'shortcut_button2';
+      document.getElementById("button4C1").className = 'shortcut_button2';
+      document.getElementById("button5C1").className = 'shortcut_button2';
+      document.getElementById("button6C1").className = 'shortcut_button2';
+      document.getElementById("button7C1").className = 'shortcut_button2';
+      document.getElementById("button8C1").className = 'shortcut_button2';
+      document.getElementById("button9C1").className = 'shortcut_button2';
+      document.getElementById("button10C1").className = 'shortcut_button2';
+      document.getElementById("button11C1").className = 'shortcut_button2';
+      document.getElementById("button12C1").className = 'shortcut_button2';
+      document.getElementById("button13C1").className = 'shortcut_button2';
+      document.getElementById("button14C1").className = 'shortcut_button2';
+      document.getElementById("button15C1").className = 'shortcut_button2';
+      document.getElementById("button16C1").className = 'shortcut_button2';
+      document.getElementById("button17C1").className = 'shortcut_button2';
+      document.getElementById("button18C1").className = 'shortcut_button2';
+      document.getElementById("button19C1").className = 'shortcut_button2';
+      document.getElementById("button20C1").className = 'shortcut_button2';
     }
 
     if (catColor === "Green") {
       document.getElementById("cat1Button").className = 'shortcut_button3';
+      document.getElementById("button1C1").className = 'shortcut_button3';
+      document.getElementById("button2C1").className = 'shortcut_button3';
+      document.getElementById("button3C1").className = 'shortcut_button3';
+      document.getElementById("button4C1").className = 'shortcut_button3';
+      document.getElementById("button5C1").className = 'shortcut_button3';
+      document.getElementById("button6C1").className = 'shortcut_button3';
+      document.getElementById("button7C1").className = 'shortcut_button3';
+      document.getElementById("button8C1").className = 'shortcut_button3';
+      document.getElementById("button9C1").className = 'shortcut_button3';
+      document.getElementById("button10C1").className = 'shortcut_button3';
+      document.getElementById("button11C1").className = 'shortcut_button3';
+      document.getElementById("button12C1").className = 'shortcut_button3';
+      document.getElementById("button13C1").className = 'shortcut_button3';
+      document.getElementById("button14C1").className = 'shortcut_button3';
+      document.getElementById("button15C1").className = 'shortcut_button3';
+      document.getElementById("button16C1").className = 'shortcut_button3';
+      document.getElementById("button17C1").className = 'shortcut_button3';
+      document.getElementById("button18C1").className = 'shortcut_button3';
+      document.getElementById("button19C1").className = 'shortcut_button3';
+      document.getElementById("button20C1").className = 'shortcut_button3';
     }
 
     if (catColor === "Orange") {
       document.getElementById("cat1Button").className = 'shortcut_button4';
+      document.getElementById("button1C1").className = 'shortcut_button4';
+      document.getElementById("button2C1").className = 'shortcut_button4';
+      document.getElementById("button3C1").className = 'shortcut_button4';
+      document.getElementById("button4C1").className = 'shortcut_button4';
+      document.getElementById("button5C1").className = 'shortcut_button4';
+      document.getElementById("button6C1").className = 'shortcut_button4';
+      document.getElementById("button7C1").className = 'shortcut_button4';
+      document.getElementById("button8C1").className = 'shortcut_button4';
+      document.getElementById("button9C1").className = 'shortcut_button4';
+      document.getElementById("button10C1").className = 'shortcut_button4';
+      document.getElementById("button11C1").className = 'shortcut_button4';
+      document.getElementById("button12C1").className = 'shortcut_button4';
+      document.getElementById("button13C1").className = 'shortcut_button4';
+      document.getElementById("button14C1").className = 'shortcut_button4';
+      document.getElementById("button15C1").className = 'shortcut_button4';
+      document.getElementById("button16C1").className = 'shortcut_button4';
+      document.getElementById("button17C1").className = 'shortcut_button4';
+      document.getElementById("button18C1").className = 'shortcut_button4';
+      document.getElementById("button19C1").className = 'shortcut_button4';
+      document.getElementById("button20C1").className = 'shortcut_button4';
     }
   
     if (catColor === "Purple") {
       document.getElementById("cat1Button").className = 'shortcut_button5';
+      document.getElementById("button1C1").className = 'shortcut_button5';
+      document.getElementById("button2C1").className = 'shortcut_button5';
+      document.getElementById("button3C1").className = 'shortcut_button5';
+      document.getElementById("button4C1").className = 'shortcut_button5';
+      document.getElementById("button5C1").className = 'shortcut_button5';
+      document.getElementById("button6C1").className = 'shortcut_button5';
+      document.getElementById("button7C1").className = 'shortcut_button5';
+      document.getElementById("button8C1").className = 'shortcut_button5';
+      document.getElementById("button9C1").className = 'shortcut_button5';
+      document.getElementById("button10C1").className = 'shortcut_button5';
+      document.getElementById("button11C1").className = 'shortcut_button5';
+      document.getElementById("button12C1").className = 'shortcut_button5';
+      document.getElementById("button13C1").className = 'shortcut_button5';
+      document.getElementById("button14C1").className = 'shortcut_button5';
+      document.getElementById("button15C1").className = 'shortcut_button5';
+      document.getElementById("button16C1").className = 'shortcut_button5';
+      document.getElementById("button17C1").className = 'shortcut_button5';
+      document.getElementById("button18C1").className = 'shortcut_button5';
+      document.getElementById("button19C1").className = 'shortcut_button5';
+      document.getElementById("button20C1").className = 'shortcut_button5';
     }
     
   }
@@ -195,26 +316,146 @@ function updateCat() {
   
     if (catColor === "Default") {
       document.getElementById("cat2Button").className = 'shortcut_button0';
+      document.getElementById("button1C2").className = 'shortcut_button0';
+      document.getElementById("button2C2").className = 'shortcut_button0';
+      document.getElementById("button3C2").className = 'shortcut_button0';
+      document.getElementById("button4C2").className = 'shortcut_button0';
+      document.getElementById("button5C2").className = 'shortcut_button0';
+      document.getElementById("button6C2").className = 'shortcut_button0';
+      document.getElementById("button7C2").className = 'shortcut_button0';
+      document.getElementById("button8C2").className = 'shortcut_button0';
+      document.getElementById("button9C2").className = 'shortcut_button0';
+      document.getElementById("button10C2").className = 'shortcut_button0';
+      document.getElementById("button11C2").className = 'shortcut_button0';
+      document.getElementById("button12C2").className = 'shortcut_button0';
+      document.getElementById("button13C2").className = 'shortcut_button0';
+      document.getElementById("button14C2").className = 'shortcut_button0';
+      document.getElementById("button15C2").className = 'shortcut_button0';
+      document.getElementById("button16C2").className = 'shortcut_button0';
+      document.getElementById("button17C2").className = 'shortcut_button0';
+      document.getElementById("button18C2").className = 'shortcut_button0';
+      document.getElementById("button19C2").className = 'shortcut_button0';
+      document.getElementById("button20C2").className = 'shortcut_button0';
     }
 
     if (catColor === "Red") {
       document.getElementById("cat2Button").className = 'shortcut_button1';
+      document.getElementById("button1C2").className = 'shortcut_button1';
+      document.getElementById("button2C2").className = 'shortcut_button1';
+      document.getElementById("button3C2").className = 'shortcut_button1';
+      document.getElementById("button4C2").className = 'shortcut_button1';
+      document.getElementById("button5C2").className = 'shortcut_button1';
+      document.getElementById("button6C2").className = 'shortcut_button1';
+      document.getElementById("button7C2").className = 'shortcut_button1';
+      document.getElementById("button8C2").className = 'shortcut_button1';
+      document.getElementById("button9C2").className = 'shortcut_button1';
+      document.getElementById("button10C2").className = 'shortcut_button1';
+      document.getElementById("button11C2").className = 'shortcut_button1';
+      document.getElementById("button12C2").className = 'shortcut_button1';
+      document.getElementById("button13C2").className = 'shortcut_button1';
+      document.getElementById("button14C2").className = 'shortcut_button1';
+      document.getElementById("button15C2").className = 'shortcut_button1';
+      document.getElementById("button16C2").className = 'shortcut_button1';
+      document.getElementById("button17C2").className = 'shortcut_button1';
+      document.getElementById("button18C2").className = 'shortcut_button1';
+      document.getElementById("button19C2").className = 'shortcut_button1';
+      document.getElementById("button20C2").className = 'shortcut_button1';
     }
 
     if (catColor === "Blue") {
       document.getElementById("cat2Button").className = 'shortcut_button2';
+      document.getElementById("button1C2").className = 'shortcut_button2';
+      document.getElementById("button2C2").className = 'shortcut_button2';
+      document.getElementById("button3C2").className = 'shortcut_button2';
+      document.getElementById("button4C2").className = 'shortcut_button2';
+      document.getElementById("button5C2").className = 'shortcut_button2';
+      document.getElementById("button6C2").className = 'shortcut_button2';
+      document.getElementById("button7C2").className = 'shortcut_button2';
+      document.getElementById("button8C2").className = 'shortcut_button2';
+      document.getElementById("button9C2").className = 'shortcut_button2';
+      document.getElementById("button10C2").className = 'shortcut_button2';
+      document.getElementById("button11C2").className = 'shortcut_button2';
+      document.getElementById("button12C2").className = 'shortcut_button2';
+      document.getElementById("button13C2").className = 'shortcut_button2';
+      document.getElementById("button14C2").className = 'shortcut_button2';
+      document.getElementById("button15C2").className = 'shortcut_button2';
+      document.getElementById("button16C2").className = 'shortcut_button2';
+      document.getElementById("button17C2").className = 'shortcut_button2';
+      document.getElementById("button18C2").className = 'shortcut_button2';
+      document.getElementById("button19C2").className = 'shortcut_button2';
+      document.getElementById("button20C2").className = 'shortcut_button2';
     }
 
     if (catColor === "Green") {
       document.getElementById("cat2Button").className = 'shortcut_button3';
+      document.getElementById("button1C2").className = 'shortcut_button3';
+      document.getElementById("button2C2").className = 'shortcut_button3';
+      document.getElementById("button3C2").className = 'shortcut_button3';
+      document.getElementById("button4C2").className = 'shortcut_button3';
+      document.getElementById("button5C2").className = 'shortcut_button3';
+      document.getElementById("button6C2").className = 'shortcut_button3';
+      document.getElementById("button7C2").className = 'shortcut_button3';
+      document.getElementById("button8C2").className = 'shortcut_button3';
+      document.getElementById("button9C2").className = 'shortcut_button3';
+      document.getElementById("button10C2").className = 'shortcut_button3';
+      document.getElementById("button11C2").className = 'shortcut_button3';
+      document.getElementById("button12C2").className = 'shortcut_button3';
+      document.getElementById("button13C2").className = 'shortcut_button3';
+      document.getElementById("button14C2").className = 'shortcut_button3';
+      document.getElementById("button15C2").className = 'shortcut_button3';
+      document.getElementById("button16C2").className = 'shortcut_button3';
+      document.getElementById("button17C2").className = 'shortcut_button3';
+      document.getElementById("button18C2").className = 'shortcut_button3';
+      document.getElementById("button19C2").className = 'shortcut_button3';
+      document.getElementById("button20C2").className = 'shortcut_button3';
     }
 
     if (catColor === "Orange") {
       document.getElementById("cat2Button").className = 'shortcut_button4';
+      document.getElementById("button1C2").className = 'shortcut_button4';
+      document.getElementById("button2C2").className = 'shortcut_button4';
+      document.getElementById("button3C2").className = 'shortcut_button4';
+      document.getElementById("button4C2").className = 'shortcut_button4';
+      document.getElementById("button5C2").className = 'shortcut_button4';
+      document.getElementById("button6C2").className = 'shortcut_button4';
+      document.getElementById("button7C2").className = 'shortcut_button4';
+      document.getElementById("button8C2").className = 'shortcut_button4';
+      document.getElementById("button9C2").className = 'shortcut_button4';
+      document.getElementById("button10C2").className = 'shortcut_button4';
+      document.getElementById("button11C2").className = 'shortcut_button4';
+      document.getElementById("button12C2").className = 'shortcut_button4';
+      document.getElementById("button13C2").className = 'shortcut_button4';
+      document.getElementById("button14C2").className = 'shortcut_button4';
+      document.getElementById("button15C2").className = 'shortcut_button4';
+      document.getElementById("button16C2").className = 'shortcut_button4';
+      document.getElementById("button17C2").className = 'shortcut_button4';
+      document.getElementById("button18C2").className = 'shortcut_button4';
+      document.getElementById("button19C2").className = 'shortcut_button4';
+      document.getElementById("button20C2").className = 'shortcut_button4';
     }
   
     if (catColor === "Purple") {
       document.getElementById("cat2Button").className = 'shortcut_button5';
+      document.getElementById("button1C2").className = 'shortcut_button5';
+      document.getElementById("button2C2").className = 'shortcut_button5';
+      document.getElementById("button3C2").className = 'shortcut_button5';
+      document.getElementById("button4C2").className = 'shortcut_button5';
+      document.getElementById("button5C2").className = 'shortcut_button5';
+      document.getElementById("button6C2").className = 'shortcut_button5';
+      document.getElementById("button7C2").className = 'shortcut_button5';
+      document.getElementById("button8C2").className = 'shortcut_button5';
+      document.getElementById("button9C2").className = 'shortcut_button5';
+      document.getElementById("button10C2").className = 'shortcut_button5';
+      document.getElementById("button11C2").className = 'shortcut_button5';
+      document.getElementById("button12C2").className = 'shortcut_button5';
+      document.getElementById("button13C2").className = 'shortcut_button5';
+      document.getElementById("button14C2").className = 'shortcut_button5';
+      document.getElementById("button15C2").className = 'shortcut_button5';
+      document.getElementById("button16C2").className = 'shortcut_button5';
+      document.getElementById("button17C2").className = 'shortcut_button5';
+      document.getElementById("button18C2").className = 'shortcut_button5';
+      document.getElementById("button19C2").className = 'shortcut_button5';
+      document.getElementById("button20C2").className = 'shortcut_button5';
     }
   
   }
@@ -228,26 +469,146 @@ function updateCat() {
  
     if (catColor === "Default") {
       document.getElementById("cat3Button").className = 'shortcut_button0';
+      document.getElementById("button1C3").className = 'shortcut_button0';
+      document.getElementById("button2C3").className = 'shortcut_button0';
+      document.getElementById("button3C3").className = 'shortcut_button0';
+      document.getElementById("button4C3").className = 'shortcut_button0';
+      document.getElementById("button5C3").className = 'shortcut_button0';
+      document.getElementById("button6C3").className = 'shortcut_button0';
+      document.getElementById("button7C3").className = 'shortcut_button0';
+      document.getElementById("button8C3").className = 'shortcut_button0';
+      document.getElementById("button9C3").className = 'shortcut_button0';
+      document.getElementById("button10C3").className = 'shortcut_button0';
+      document.getElementById("button11C3").className = 'shortcut_button0';
+      document.getElementById("button12C3").className = 'shortcut_button0';
+      document.getElementById("button13C3").className = 'shortcut_button0';
+      document.getElementById("button14C3").className = 'shortcut_button0';
+      document.getElementById("button15C3").className = 'shortcut_button0';
+      document.getElementById("button16C3").className = 'shortcut_button0';
+      document.getElementById("button17C3").className = 'shortcut_button0';
+      document.getElementById("button18C3").className = 'shortcut_button0';
+      document.getElementById("button19C3").className = 'shortcut_button0';
+      document.getElementById("button20C3").className = 'shortcut_button0';
     }
 
     if (catColor === "Red") {
       document.getElementById("cat3Button").className = 'shortcut_button1';
+      document.getElementById("button1C3").className = 'shortcut_button1';
+      document.getElementById("button2C3").className = 'shortcut_button1';
+      document.getElementById("button3C3").className = 'shortcut_button1';
+      document.getElementById("button4C3").className = 'shortcut_button1';
+      document.getElementById("button5C3").className = 'shortcut_button1';
+      document.getElementById("button6C3").className = 'shortcut_button1';
+      document.getElementById("button7C3").className = 'shortcut_button1';
+      document.getElementById("button8C3").className = 'shortcut_button1';
+      document.getElementById("button9C3").className = 'shortcut_button1';
+      document.getElementById("button10C3").className = 'shortcut_button1';
+      document.getElementById("button11C3").className = 'shortcut_button1';
+      document.getElementById("button12C3").className = 'shortcut_button1';
+      document.getElementById("button13C3").className = 'shortcut_button1';
+      document.getElementById("button14C3").className = 'shortcut_button1';
+      document.getElementById("button15C3").className = 'shortcut_button1';
+      document.getElementById("button16C3").className = 'shortcut_button1';
+      document.getElementById("button17C3").className = 'shortcut_button1';
+      document.getElementById("button18C3").className = 'shortcut_button1';
+      document.getElementById("button19C3").className = 'shortcut_button1';
+      document.getElementById("button20C3").className = 'shortcut_button1';
     }
 
     if (catColor === "Blue") {
       document.getElementById("cat3Button").className = 'shortcut_button2';
+      document.getElementById("button1C3").className = 'shortcut_button2';
+      document.getElementById("button2C3").className = 'shortcut_button2';
+      document.getElementById("button3C3").className = 'shortcut_button2';
+      document.getElementById("button4C3").className = 'shortcut_button2';
+      document.getElementById("button5C3").className = 'shortcut_button2';
+      document.getElementById("button6C3").className = 'shortcut_button2';
+      document.getElementById("button7C3").className = 'shortcut_button2';
+      document.getElementById("button8C3").className = 'shortcut_button2';
+      document.getElementById("button9C3").className = 'shortcut_button2';
+      document.getElementById("button10C3").className = 'shortcut_button2';
+      document.getElementById("button11C3").className = 'shortcut_button2';
+      document.getElementById("button12C3").className = 'shortcut_button2';
+      document.getElementById("button13C3").className = 'shortcut_button2';
+      document.getElementById("button14C3").className = 'shortcut_button2';
+      document.getElementById("button15C3").className = 'shortcut_button2';
+      document.getElementById("button16C3").className = 'shortcut_button2';
+      document.getElementById("button17C3").className = 'shortcut_button2';
+      document.getElementById("button18C3").className = 'shortcut_button2';
+      document.getElementById("button19C3").className = 'shortcut_button2';
+      document.getElementById("button20C3").className = 'shortcut_button2';
     }
 
     if (catColor === "Green") {
       document.getElementById("cat3Button").className = 'shortcut_button3';
+      document.getElementById("button1C3").className = 'shortcut_button3';
+      document.getElementById("button2C3").className = 'shortcut_button3';
+      document.getElementById("button3C3").className = 'shortcut_button3';
+      document.getElementById("button4C3").className = 'shortcut_button3';
+      document.getElementById("button5C3").className = 'shortcut_button3';
+      document.getElementById("button6C3").className = 'shortcut_button3';
+      document.getElementById("button7C3").className = 'shortcut_button3';
+      document.getElementById("button8C3").className = 'shortcut_button3';
+      document.getElementById("button9C3").className = 'shortcut_button3';
+      document.getElementById("button10C3").className = 'shortcut_button3';
+      document.getElementById("button11C3").className = 'shortcut_button3';
+      document.getElementById("button12C3").className = 'shortcut_button3';
+      document.getElementById("button13C3").className = 'shortcut_button3';
+      document.getElementById("button14C3").className = 'shortcut_button3';
+      document.getElementById("button15C3").className = 'shortcut_button3';
+      document.getElementById("button16C3").className = 'shortcut_button3';
+      document.getElementById("button17C3").className = 'shortcut_button3';
+      document.getElementById("button18C3").className = 'shortcut_button3';
+      document.getElementById("button19C3").className = 'shortcut_button3';
+      document.getElementById("button20C3").className = 'shortcut_button3';
     }
 
     if (catColor === "Orange") {
       document.getElementById("cat3Button").className = 'shortcut_button4';
+      document.getElementById("button1C3").className = 'shortcut_button4';
+      document.getElementById("button2C3").className = 'shortcut_button4';
+      document.getElementById("button3C3").className = 'shortcut_button4';
+      document.getElementById("button4C3").className = 'shortcut_button4';
+      document.getElementById("button5C3").className = 'shortcut_button4';
+      document.getElementById("button6C3").className = 'shortcut_button4';
+      document.getElementById("button7C3").className = 'shortcut_button4';
+      document.getElementById("button8C3").className = 'shortcut_button4';
+      document.getElementById("button9C3").className = 'shortcut_button4';
+      document.getElementById("button10C3").className = 'shortcut_button4';
+      document.getElementById("button11C3").className = 'shortcut_button4';
+      document.getElementById("button12C3").className = 'shortcut_button4';
+      document.getElementById("button13C3").className = 'shortcut_button4';
+      document.getElementById("button14C3").className = 'shortcut_button4';
+      document.getElementById("button15C3").className = 'shortcut_button4';
+      document.getElementById("button16C3").className = 'shortcut_button4';
+      document.getElementById("button17C3").className = 'shortcut_button4';
+      document.getElementById("button18C3").className = 'shortcut_button4';
+      document.getElementById("button19C3").className = 'shortcut_button4';
+      document.getElementById("button20C3").className = 'shortcut_button4';
     }
   
     if (catColor === "Purple") {
       document.getElementById("cat3Button").className = 'shortcut_button5';
+      document.getElementById("button1C3").className = 'shortcut_button5';
+      document.getElementById("button2C3").className = 'shortcut_button5';
+      document.getElementById("button3C3").className = 'shortcut_button5';
+      document.getElementById("button4C3").className = 'shortcut_button5';
+      document.getElementById("button5C3").className = 'shortcut_button5';
+      document.getElementById("button6C3").className = 'shortcut_button5';
+      document.getElementById("button7C3").className = 'shortcut_button5';
+      document.getElementById("button8C3").className = 'shortcut_button5';
+      document.getElementById("button9C3").className = 'shortcut_button5';
+      document.getElementById("button10C3").className = 'shortcut_button5';
+      document.getElementById("button11C3").className = 'shortcut_button5';
+      document.getElementById("button12C3").className = 'shortcut_button5';
+      document.getElementById("button13C3").className = 'shortcut_button5';
+      document.getElementById("button14C3").className = 'shortcut_button5';
+      document.getElementById("button15C3").className = 'shortcut_button5';
+      document.getElementById("button16C3").className = 'shortcut_button5';
+      document.getElementById("button17C3").className = 'shortcut_button5';
+      document.getElementById("button18C3").className = 'shortcut_button5';
+      document.getElementById("button19C3").className = 'shortcut_button5';
+      document.getElementById("button20C3").className = 'shortcut_button5';
     }
 
   }
@@ -261,26 +622,146 @@ function updateCat() {
 
     if (catColor === "Default") {
       document.getElementById("cat4Button").className = 'shortcut_button0';
+      document.getElementById("button1C4").className = 'shortcut_button0';
+      document.getElementById("button2C4").className = 'shortcut_button0';
+      document.getElementById("button3C4").className = 'shortcut_button0';
+      document.getElementById("button4C4").className = 'shortcut_button0';
+      document.getElementById("button5C4").className = 'shortcut_button0';
+      document.getElementById("button6C4").className = 'shortcut_button0';
+      document.getElementById("button7C4").className = 'shortcut_button0';
+      document.getElementById("button8C4").className = 'shortcut_button0';
+      document.getElementById("button9C4").className = 'shortcut_button0';
+      document.getElementById("button10C4").className = 'shortcut_button0';
+      document.getElementById("button11C4").className = 'shortcut_button0';
+      document.getElementById("button12C4").className = 'shortcut_button0';
+      document.getElementById("button13C4").className = 'shortcut_button0';
+      document.getElementById("button14C4").className = 'shortcut_button0';
+      document.getElementById("button15C4").className = 'shortcut_button0';
+      document.getElementById("button16C4").className = 'shortcut_button0';
+      document.getElementById("button17C4").className = 'shortcut_button0';
+      document.getElementById("button18C4").className = 'shortcut_button0';
+      document.getElementById("button19C4").className = 'shortcut_button0';
+      document.getElementById("button20C4").className = 'shortcut_button0';
     }
 
     if (catColor === "Red") {
       document.getElementById("cat4Button").className = 'shortcut_button1';
+      document.getElementById("button1C4").className = 'shortcut_button1';
+      document.getElementById("button2C4").className = 'shortcut_button1';
+      document.getElementById("button3C4").className = 'shortcut_button1';
+      document.getElementById("button4C4").className = 'shortcut_button1';
+      document.getElementById("button5C4").className = 'shortcut_button1';
+      document.getElementById("button6C4").className = 'shortcut_button1';
+      document.getElementById("button7C4").className = 'shortcut_button1';
+      document.getElementById("button8C4").className = 'shortcut_button1';
+      document.getElementById("button9C4").className = 'shortcut_button1';
+      document.getElementById("button10C4").className = 'shortcut_button1';
+      document.getElementById("button11C4").className = 'shortcut_button1';
+      document.getElementById("button12C4").className = 'shortcut_button1';
+      document.getElementById("button13C4").className = 'shortcut_button1';
+      document.getElementById("button14C4").className = 'shortcut_button1';
+      document.getElementById("button15C4").className = 'shortcut_button1';
+      document.getElementById("button16C4").className = 'shortcut_button1';
+      document.getElementById("button17C4").className = 'shortcut_button1';
+      document.getElementById("button18C4").className = 'shortcut_button1';
+      document.getElementById("button19C4").className = 'shortcut_button1';
+      document.getElementById("button20C4").className = 'shortcut_button1';
     }
 
     if (catColor === "Blue") {
       document.getElementById("cat4Button").className = 'shortcut_button2';
+      document.getElementById("button1C4").className = 'shortcut_button2';
+      document.getElementById("button2C4").className = 'shortcut_button2';
+      document.getElementById("button3C4").className = 'shortcut_button2';
+      document.getElementById("button4C4").className = 'shortcut_button2';
+      document.getElementById("button5C4").className = 'shortcut_button2';
+      document.getElementById("button6C4").className = 'shortcut_button2';
+      document.getElementById("button7C4").className = 'shortcut_button2';
+      document.getElementById("button8C4").className = 'shortcut_button2';
+      document.getElementById("button9C4").className = 'shortcut_button2';
+      document.getElementById("button10C4").className = 'shortcut_button2';
+      document.getElementById("button11C4").className = 'shortcut_button2';
+      document.getElementById("button12C4").className = 'shortcut_button2';
+      document.getElementById("button13C4").className = 'shortcut_button2';
+      document.getElementById("button14C4").className = 'shortcut_button2';
+      document.getElementById("button15C4").className = 'shortcut_button2';
+      document.getElementById("button16C4").className = 'shortcut_button2';
+      document.getElementById("button17C4").className = 'shortcut_button2';
+      document.getElementById("button18C4").className = 'shortcut_button2';
+      document.getElementById("button19C4").className = 'shortcut_button2';
+      document.getElementById("button20C4").className = 'shortcut_button2';
     }
 
     if (catColor === "Green") {
       document.getElementById("cat4Button").className = 'shortcut_button3';
+      document.getElementById("button1C4").className = 'shortcut_button3';
+      document.getElementById("button2C4").className = 'shortcut_button3';
+      document.getElementById("button3C4").className = 'shortcut_button3';
+      document.getElementById("button4C4").className = 'shortcut_button3';
+      document.getElementById("button5C4").className = 'shortcut_button3';
+      document.getElementById("button6C4").className = 'shortcut_button3';
+      document.getElementById("button7C4").className = 'shortcut_button3';
+      document.getElementById("button8C4").className = 'shortcut_button3';
+      document.getElementById("button9C4").className = 'shortcut_button3';
+      document.getElementById("button10C4").className = 'shortcut_button3';
+      document.getElementById("button11C4").className = 'shortcut_button3';
+      document.getElementById("button12C4").className = 'shortcut_button3';
+      document.getElementById("button13C4").className = 'shortcut_button3';
+      document.getElementById("button14C4").className = 'shortcut_button3';
+      document.getElementById("button15C4").className = 'shortcut_button3';
+      document.getElementById("button16C4").className = 'shortcut_button3';
+      document.getElementById("button17C4").className = 'shortcut_button3';
+      document.getElementById("button18C4").className = 'shortcut_button3';
+      document.getElementById("button19C4").className = 'shortcut_button3';
+      document.getElementById("button20C4").className = 'shortcut_button3';
     }
 
     if (catColor === "Orange") {
       document.getElementById("cat4Button").className = 'shortcut_button4';
+      document.getElementById("button1C4").className = 'shortcut_button4';
+      document.getElementById("button2C4").className = 'shortcut_button4';
+      document.getElementById("button3C4").className = 'shortcut_button4';
+      document.getElementById("button4C4").className = 'shortcut_button4';
+      document.getElementById("button5C4").className = 'shortcut_button4';
+      document.getElementById("button6C4").className = 'shortcut_button4';
+      document.getElementById("button7C4").className = 'shortcut_button4';
+      document.getElementById("button8C4").className = 'shortcut_button4';
+      document.getElementById("button9C4").className = 'shortcut_button4';
+      document.getElementById("button10C4").className = 'shortcut_button4';
+      document.getElementById("button11C4").className = 'shortcut_button4';
+      document.getElementById("button12C4").className = 'shortcut_button4';
+      document.getElementById("button13C4").className = 'shortcut_button4';
+      document.getElementById("button14C4").className = 'shortcut_button4';
+      document.getElementById("button15C4").className = 'shortcut_button4';
+      document.getElementById("button16C4").className = 'shortcut_button4';
+      document.getElementById("button17C4").className = 'shortcut_button4';
+      document.getElementById("button18C4").className = 'shortcut_button4';
+      document.getElementById("button19C4").className = 'shortcut_button4';
+      document.getElementById("button20C4").className = 'shortcut_button4';
     }
   
     if (catColor === "Purple") {
       document.getElementById("cat4Button").className = 'shortcut_button5';
+      document.getElementById("button1C4").className = 'shortcut_button5';
+      document.getElementById("button2C4").className = 'shortcut_button5';
+      document.getElementById("button3C4").className = 'shortcut_button5';
+      document.getElementById("button4C4").className = 'shortcut_button5';
+      document.getElementById("button5C4").className = 'shortcut_button5';
+      document.getElementById("button6C4").className = 'shortcut_button5';
+      document.getElementById("button7C4").className = 'shortcut_button5';
+      document.getElementById("button8C4").className = 'shortcut_button5';
+      document.getElementById("button9C4").className = 'shortcut_button5';
+      document.getElementById("button10C4").className = 'shortcut_button5';
+      document.getElementById("button11C4").className = 'shortcut_button5';
+      document.getElementById("button12C4").className = 'shortcut_button5';
+      document.getElementById("button13C4").className = 'shortcut_button5';
+      document.getElementById("button14C4").className = 'shortcut_button5';
+      document.getElementById("button15C4").className = 'shortcut_button5';
+      document.getElementById("button16C4").className = 'shortcut_button5';
+      document.getElementById("button17C4").className = 'shortcut_button5';
+      document.getElementById("button18C4").className = 'shortcut_button5';
+      document.getElementById("button19C4").className = 'shortcut_button5';
+      document.getElementById("button20C4").className = 'shortcut_button5';
     }
 
   }
@@ -295,27 +776,146 @@ function updateCat() {
 
     if (catColor === "Default") {
       document.getElementById("cat5Button").className = 'shortcut_button0';
+      document.getElementById("button1C5").className = 'shortcut_button0';
+      document.getElementById("button2C5").className = 'shortcut_button0';
+      document.getElementById("button3C5").className = 'shortcut_button0';
+      document.getElementById("button4C5").className = 'shortcut_button0';
+      document.getElementById("button5C5").className = 'shortcut_button0';
+      document.getElementById("button6C5").className = 'shortcut_button0';
+      document.getElementById("button7C5").className = 'shortcut_button0';
+      document.getElementById("button8C5").className = 'shortcut_button0';
+      document.getElementById("button9C5").className = 'shortcut_button0';
+      document.getElementById("button10C5").className = 'shortcut_button0';
+      document.getElementById("button11C5").className = 'shortcut_button0';
+      document.getElementById("button12C5").className = 'shortcut_button0';
+      document.getElementById("button13C5").className = 'shortcut_button0';
+      document.getElementById("button14C5").className = 'shortcut_button0';
+      document.getElementById("button15C5").className = 'shortcut_button0';
+      document.getElementById("button16C5").className = 'shortcut_button0';
+      document.getElementById("button17C5").className = 'shortcut_button0';
+      document.getElementById("button18C5").className = 'shortcut_button0';
+      document.getElementById("button19C5").className = 'shortcut_button0';
+      document.getElementById("button20C5").className = 'shortcut_button0';
     }
 
     if (catColor === "Red") {
       document.getElementById("cat5Button").className = 'shortcut_button1';
+      document.getElementById("button1C5").className = 'shortcut_button1';
+      document.getElementById("button2C5").className = 'shortcut_button1';
+      document.getElementById("button3C5").className = 'shortcut_button1';
+      document.getElementById("button4C5").className = 'shortcut_button1';
+      document.getElementById("button5C5").className = 'shortcut_button1';
+      document.getElementById("button6C5").className = 'shortcut_button1';
+      document.getElementById("button7C5").className = 'shortcut_button1';
+      document.getElementById("button8C5").className = 'shortcut_button1';
+      document.getElementById("button9C5").className = 'shortcut_button1';
+      document.getElementById("button10C5").className = 'shortcut_button1';
+      document.getElementById("button11C5").className = 'shortcut_button1';
+      document.getElementById("button12C5").className = 'shortcut_button1';
+      document.getElementById("button13C5").className = 'shortcut_button1';
+      document.getElementById("button14C5").className = 'shortcut_button1';
+      document.getElementById("button15C5").className = 'shortcut_button1';
+      document.getElementById("button16C5").className = 'shortcut_button1';
+      document.getElementById("button17C5").className = 'shortcut_button1';
+      document.getElementById("button18C5").className = 'shortcut_button1';
+      document.getElementById("button19C5").className = 'shortcut_button1';
+      document.getElementById("button20C5").className = 'shortcut_button1';
     }
 
     if (catColor === "Blue") {
       document.getElementById("cat5Button").className = 'shortcut_button2';
+      document.getElementById("button1C5").className = 'shortcut_button2';
+      document.getElementById("button2C5").className = 'shortcut_button2';
+      document.getElementById("button3C5").className = 'shortcut_button2';
+      document.getElementById("button4C5").className = 'shortcut_button2';
+      document.getElementById("button5C5").className = 'shortcut_button2';
+      document.getElementById("button6C5").className = 'shortcut_button2';
+      document.getElementById("button7C5").className = 'shortcut_button2';
+      document.getElementById("button8C5").className = 'shortcut_button2';
+      document.getElementById("button9C5").className = 'shortcut_button2';
+      document.getElementById("button10C5").className = 'shortcut_button2';
+      document.getElementById("button11C5").className = 'shortcut_button2';
+      document.getElementById("button12C5").className = 'shortcut_button2';
+      document.getElementById("button13C5").className = 'shortcut_button2';
+      document.getElementById("button14C5").className = 'shortcut_button2';
+      document.getElementById("button15C5").className = 'shortcut_button2';
+      document.getElementById("button16C5").className = 'shortcut_button2';
+      document.getElementById("button17C5").className = 'shortcut_button2';
+      document.getElementById("button18C5").className = 'shortcut_button2';
+      document.getElementById("button19C5").className = 'shortcut_button2';
+      document.getElementById("button20C5").className = 'shortcut_button2';
     }
 
     if (catColor === "Green") {
       document.getElementById("cat5Button").className = 'shortcut_button3';
-      button_container3.style.background = "red";
+      document.getElementById("button1C5").className = 'shortcut_button3';
+      document.getElementById("button2C5").className = 'shortcut_button3';
+      document.getElementById("button3C5").className = 'shortcut_button3';
+      document.getElementById("button4C5").className = 'shortcut_button3';
+      document.getElementById("button5C5").className = 'shortcut_button3';
+      document.getElementById("button6C5").className = 'shortcut_button3';
+      document.getElementById("button7C5").className = 'shortcut_button3';
+      document.getElementById("button8C5").className = 'shortcut_button3';
+      document.getElementById("button9C5").className = 'shortcut_button3';
+      document.getElementById("button10C5").className = 'shortcut_button3';
+      document.getElementById("button11C5").className = 'shortcut_button3';
+      document.getElementById("button12C5").className = 'shortcut_button3';
+      document.getElementById("button13C5").className = 'shortcut_button3';
+      document.getElementById("button14C5").className = 'shortcut_button3';
+      document.getElementById("button15C5").className = 'shortcut_button3';
+      document.getElementById("button16C5").className = 'shortcut_button3';
+      document.getElementById("button17C5").className = 'shortcut_button3';
+      document.getElementById("button18C5").className = 'shortcut_button3';
+      document.getElementById("button19C5").className = 'shortcut_button3';
+      document.getElementById("button20C5").className = 'shortcut_button3';
     }
 
     if (catColor === "Orange") {
       document.getElementById("cat5Button").className = 'shortcut_button4';
+      document.getElementById("button1C5").className = 'shortcut_button4';
+      document.getElementById("button2C5").className = 'shortcut_button4';
+      document.getElementById("button3C5").className = 'shortcut_button4';
+      document.getElementById("button4C5").className = 'shortcut_button4';
+      document.getElementById("button5C5").className = 'shortcut_button4';
+      document.getElementById("button6C5").className = 'shortcut_button4';
+      document.getElementById("button7C5").className = 'shortcut_button4';
+      document.getElementById("button8C5").className = 'shortcut_button4';
+      document.getElementById("button9C5").className = 'shortcut_button4';
+      document.getElementById("button10C5").className = 'shortcut_button4';
+      document.getElementById("button11C5").className = 'shortcut_button4';
+      document.getElementById("button12C5").className = 'shortcut_button4';
+      document.getElementById("button13C5").className = 'shortcut_button4';
+      document.getElementById("button14C5").className = 'shortcut_button4';
+      document.getElementById("button15C5").className = 'shortcut_button4';
+      document.getElementById("button16C5").className = 'shortcut_button4';
+      document.getElementById("button17C5").className = 'shortcut_button4';
+      document.getElementById("button18C5").className = 'shortcut_button4';
+      document.getElementById("button19C5").className = 'shortcut_button4';
+      document.getElementById("button20C5").className = 'shortcut_button4';
     }
   
     if (catColor === "Purple") {
       document.getElementById("cat5Button").className = 'shortcut_button5';
+      document.getElementById("button1C5").className = 'shortcut_button5';
+      document.getElementById("button2C5").className = 'shortcut_button5';
+      document.getElementById("button3C5").className = 'shortcut_button5';
+      document.getElementById("button4C5").className = 'shortcut_button5';
+      document.getElementById("button5C5").className = 'shortcut_button5';
+      document.getElementById("button6C5").className = 'shortcut_button5';
+      document.getElementById("button7C5").className = 'shortcut_button5';
+      document.getElementById("button8C5").className = 'shortcut_button5';
+      document.getElementById("button9C5").className = 'shortcut_button5';
+      document.getElementById("button10C5").className = 'shortcut_button5';
+      document.getElementById("button11C5").className = 'shortcut_button5';
+      document.getElementById("button12C5").className = 'shortcut_button5';
+      document.getElementById("button13C5").className = 'shortcut_button5';
+      document.getElementById("button14C5").className = 'shortcut_button5';
+      document.getElementById("button15C5").className = 'shortcut_button5';
+      document.getElementById("button16C5").className = 'shortcut_button5';
+      document.getElementById("button17C5").className = 'shortcut_button5';
+      document.getElementById("button18C5").className = 'shortcut_button5';
+      document.getElementById("button19C5").className = 'shortcut_button5';
+      document.getElementById("button20C5").className = 'shortcut_button5';
     }
   }
 }
