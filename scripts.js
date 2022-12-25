@@ -2027,3 +2027,505 @@ function selectBut100() {
     console.log("Edit Mode: Button 100C100 Selected, Current Label: " + butLabel.value);
   }
 }
+
+function updateBut() {
+  if (currentBut == 1) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button1C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 2) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button2C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 3) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button3C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 4) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button4C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 5) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button5C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 6) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button6C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 7) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button7C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 8) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button8C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 9) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button9C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 10) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button10C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 11) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button11C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 12) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button12C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 13) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button13C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 14) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button14C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 15) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button15C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 16) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button16C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 17) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button17C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 18) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button18C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 19) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button19C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 20) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button20C1').innerHTML = butLabel;
+  }
+
+  if (currentBut == 21) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button1C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 22) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button2C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 23) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button3C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 24) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button4C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 25) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button5C2').innerHTML = butLabel;
+  }
+2
+  if (currentBut == 26) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button6C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 27) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button7C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 28) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button8C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 29) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button9C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 30) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button10C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 31) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button11C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 32) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button12C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 33) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button13C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 34) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button14C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 35) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button15C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 36) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button16C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 37) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button17C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 38) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button18C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 39) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button19C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 40) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button20C2').innerHTML = butLabel;
+  }
+
+  if (currentBut == 41) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button1C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 42) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button2C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 43) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button3C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 44) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button4C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 45) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button5C3').innerHTML = butLabel;
+  }
+2
+  if (currentBut == 46) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button6C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 47) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button7C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 48) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button8C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 49) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button9C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 50) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button10C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 51) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button11C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 52) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button12C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 53) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button13C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 54) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button14C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 55) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button15C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 56) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button16C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 57) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button17C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 58) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button18C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 59) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button19C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 60) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button20C3').innerHTML = butLabel;
+  }
+
+  if (currentBut == 61) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button1C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 62) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button2C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 63) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button3C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 64) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button4C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 65) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button5C4').innerHTML = butLabel;
+  }
+2
+  if (currentBut == 66) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button6C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 67) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button7C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 68) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button8C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 69) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button9C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 70) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button10C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 71) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button11C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 72) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button12C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 73) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button13C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 74) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button14C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 75) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button15C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 76) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button16C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 77) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button17C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 78) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button18C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 79) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button19C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 80) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button20C4').innerHTML = butLabel;
+  }
+
+  if (currentBut == 81) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button1C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 82) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button2C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 83) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button3C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 84) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button4C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 85) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button5C5').innerHTML = butLabel;
+  }
+2
+  if (currentBut == 86) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button6C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 87) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button7C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 88) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button8C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 89) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button9C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 90) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button10C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 91) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button11C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 92) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button12C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 93) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button13C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 94) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button14C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 95) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button15C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 96) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button16C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 97) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button17C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 98) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button18C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 99) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button19C5').innerHTML = butLabel;
+  }
+
+  if (currentBut == 100) {
+    let butLabel = document.getElementById('butLabel').value;
+    document.getElementById('button20C5').innerHTML = butLabel;
+  }
+}
